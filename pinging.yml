@@ -1,9 +1,6 @@
-# su - root
-# cd /etc/ansible/playbooks
-# vim clientstatus.yml
 ---
 - name: “Check remote clients connectivity status”
-hosts: all
-tasks:
-- name: Test connectivity
-ping:
+  hosts: all
+  tasks:
+  - name: Test connectivity
+    ping:
