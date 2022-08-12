@@ -14,7 +14,7 @@
             when: appr_proc_check.stdout == "process_running"
           - name: Copy the Kernel Patch Repo File
             copy:
-                    src: /home/sverma/patching/kernel.repo
+                    src: /home/ganesh/patching/kernel.repo
                     dest: /etc/yum.repos.d/
           - name: Current Kernel Version
             shell: uname -r
