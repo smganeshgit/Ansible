@@ -1,5 +1,5 @@
 ---
-- name: extra variable demo
+- name: extra variable demo chcking git
   hosts: all
   vars:
     fruit: "banana"

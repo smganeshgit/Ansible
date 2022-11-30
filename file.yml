@@ -1,5 +1,5 @@
 ---
-- name: file module demo
+- name: file module demo main
   hosts: all
   vars:
     mydir: "~/example"
