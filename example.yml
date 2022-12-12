@@ -2,7 +2,7 @@
 - name: extra variable demo chcking git
   hosts: all
   vars:
-    fruit: "banana"
+    fruit: "Apple"
   task:
     - name: print message
       ansible.builtin.debug:
